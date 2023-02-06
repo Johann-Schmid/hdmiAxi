@@ -1,0 +1,44 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.31684",
+   "Default View_TopLeft":"-8,-20",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port hdmi_out -pg 1 -lvl 6 -x 1720 -y 120 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x -90 -y 70 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x -90 -y 150 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 90 -y 160 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 4 -x 1160 -y 270 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 3 -x 760 -y 370 -defaultsOSRD
+preplace inst rgb2dvi_1 -pg 1 -lvl 5 -x 1550 -y 160 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 420 -y 170 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x 420 -y 310 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 420 -y 450 -defaultsOSRD
+preplace inst dataGen_0 -pg 1 -lvl 3 -x 760 -y 90 -defaultsOSRD
+preplace netloc sys_clock_1 1 0 1 -60J 70n
+preplace netloc clk_wiz_0_clk_out1 1 1 4 180 70 590 -10 950 100 1340J
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 3 600 0 930 90 1370
+preplace netloc reset_1 1 0 2 -70J 220 190J
+preplace netloc dataGen_0_o_data 1 3 1 960 60n
+preplace netloc v_axi4s_vid_out_0_s_axis_video_tready 1 2 2 610 220 NJ
+preplace netloc dataGen_0_o_sof 1 3 1 910 100n
+preplace netloc dataGen_0_o_eol 1 3 1 900 120n
+preplace netloc dataGen_0_o_data_valid 1 3 1 920 80n
+preplace netloc v_axi4s_vid_out_0_vid_data 1 4 1 1360 120n
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 4 1 1380 140n
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 4 1 1400 160n
+preplace netloc v_axi4s_vid_out_0_vid_active_video 1 4 1 1390 180n
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 2 3 610 460 NJ 460 1370
+preplace netloc xlconstant_0_dout 1 1 3 180 370 610 280 900
+preplace netloc v_tc_0_vtiming_out 1 3 1 940 280n
+preplace netloc v_axi4s_vid_out_0_vid_io_out 1 4 1 1350 100n
+preplace netloc rgb2dvi_1_TMDS 1 5 1 1680 120n
+levelinfo -pg 1 -90 90 420 760 1160 1550 1720
+pagesize -pg 1 -db -bbox -sgen -210 -20 1830 530
+"
+}
+{
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"3"
+}

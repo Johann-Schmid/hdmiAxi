@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Feb  2 10:43:07 2023
+# Process ID: 13712
+# Current directory: D:/hdmiAxi/hdmiAxi/hdmiAxi.runs/hdmi_dataGen_0_0_synth_1
+# Command line: vivado.exe -log hdmi_dataGen_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_dataGen_0_0.tcl
+# Log file: D:/hdmiAxi/hdmiAxi/hdmiAxi.runs/hdmi_dataGen_0_0_synth_1/hdmi_dataGen_0_0.vds
+# Journal file: D:/hdmiAxi/hdmiAxi/hdmiAxi.runs/hdmi_dataGen_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source hdmi_dataGen_0_0.tcl -notrace
